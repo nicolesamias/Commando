@@ -6,9 +6,10 @@ module.exports = class UnknownCommandCommand extends Command {
 			name: 'unknown-command',
 			group: 'util',
 			memberName: 'unknown-command',
-			description: 'Displays help information for when an unknown command is used.',
+			description: 'Informa quando um comando é desconhecido.',
 			examples: ['unknown-command kickeverybodyever'],
 			unknown: true,
 			hidden: true
 		});
-	}
+    }
+}
